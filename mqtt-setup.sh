@@ -15,4 +15,4 @@ docker cp mosquitto.conf mosquitto:/mosquitto/config/mosquitto.conf
 docker stop mosquitto
 docker start mosquitto
 
-nohup python3 dynamodb.py > dynamodb.log $
+nohup python3 dynamodb.py > dynamodb.log &
